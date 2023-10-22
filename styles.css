@@ -1,0 +1,49 @@
+.button{
+    height:50px;
+    width:100px;
+    color:rgb(247, 244, 250);
+    font-size: large;
+}
+.show{
+    display: flex;
+    flex-direction: row-reverse;
+    height:50px;
+    width:294px;
+    font-size: 2em;
+    color:rgb(221, 142, 142);
+    margin-top: 7px;
+    margin-right: 2px;
+}
+.form{
+    color: rgb(134, 199, 203);
+}
+.flex{
+    display: flex;
+}
+
+#top .button{
+    background-color: #c77fa8;
+}
+#num .button{
+    background-color: #ecbbdd;
+}
+aside-left .button{
+    background-color: #c77fa8;
+}
+
+main{
+    width:300px;
+    height:450px;
+    flex-wrap:wrap
+}
+#num{
+    flex-wrap: wrap;
+}
+#top{
+    flex-wrap: wrap;
+}
+aside-left{
+    width:450px;
+    flex-direction: row;
+    flex-wrap:wrap;
+}
